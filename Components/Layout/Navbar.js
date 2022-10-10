@@ -46,8 +46,8 @@ function Navbar() {
           </div>
           <div
             className={` ${
-              active && "active"
-            } navitems z-10 max-w-screen h-screen overflow-hidden flex flex-col items-center justify-center absolute inset-0 offset-0 bg-Apple text-center md:bg-transparent  md:flex-row md:min-h-max md:relative md:items-center`}
+              active && "active h-screen"
+            } navitems z-10 max-w-screen  overflow-hidden flex flex-col items-center justify-center absolute inset-0 offset-0 bg-Apple text-center md:bg-transparent  md:flex-row md:min-h-max md:relative md:items-center`}
           >
             <p
               onClick={() => {

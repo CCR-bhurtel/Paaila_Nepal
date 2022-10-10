@@ -3,7 +3,10 @@ import SmallText from "../common/SmallText";
 
 function HomeHero() {
   return (
-    <div className="hero_home h-[50vh] md:h-[500px] lg:min-h-[670px] min-w-screen object-cover flex items-start justify-center px-6 py-[3rem] md:py-[4rem]">
+    <div
+      id="top"
+      className="hero_home h-[50vh] md:h-[500px] lg:min-h-[670px] w-screen object-cover flex items-start justify-center px-6 py-[3rem] md:py-[4rem]"
+    >
       <div className="container">
         <div className="largeText font-Inter text-4xl md:text-6xl lg:text-8xl text-white ">
           We sell{" "}

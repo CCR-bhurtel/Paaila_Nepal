@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -21,6 +22,19 @@ module.exports = {
         Smoky: "#090909",
         black: "#000",
         white: "#ffffff",
+        Nickel: "#737373",
+      },
+      screens: {
+        sm: "640px",
+        usm: "425px",
+
+        md: "768px",
+
+        lg: "1024px",
+
+        xl: "1280px",
+
+        "2xl": "1536px",
       },
     },
   },
