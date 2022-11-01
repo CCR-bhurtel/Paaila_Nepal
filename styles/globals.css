@@ -20,15 +20,16 @@
 }
 
 .extending-bg {
-  background-image: url(../Assets/Misc/nepal.jpg);
+  background-image: url(../Assets/Misc/extending_large.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .hero_about {
   background-image: url(../Assets/Misc/hero_about.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .hero_products {
@@ -44,6 +45,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .extending-bg {
+    background-image: url(../Assets/Misc/extending_small.png) !important;
+  }
   .container {
     max-width: 600px;
   }

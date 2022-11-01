@@ -43,11 +43,14 @@ function Footer() {
           <p className="text-md font-Open tracking-wide text-md lg:text-xl ">
             Subscribe to our newsletter
           </p>
-          <input
-            type="text"
-            className="bg-transparent text-xl text-White border border-Apple border-2 px-4 py-4 rounded-md focus:outline-none lg:w-[400px] mt-2"
-            placeholder="Your Email"
-          />
+          <div className="input flex flex-col">
+            <input
+              type="text"
+              className="bg-transparent text-xl text-White border border-Apple border-2 rounded-md px-4 py-4 focus:outline-none lg:w-[400px] mt-2"
+              placeholder="Your Email"
+            />
+            <button className="bg-Toxic w-[100px] rounded-md tracking-wide py-4 mt-2">Subscribe</button>
+          </div>
         </div>
         <div className="info text-white mt-6 flex items-start justify-start flex-col md:ml-6">
           <div className="location flex items-center justify-center flex-row flex-wrap">

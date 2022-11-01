@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import products from "../../Data/products";
 import ProductItem from "./ProductItem";
+import FadeAnimation from "../common/Fade";
 
 function ProductList({ productLength }) {
   const [productList, setProductList] = useState([]);
@@ -14,15 +15,18 @@ function ProductList({ productLength }) {
   }, [productLength]);
   return (
     <div className="products w-screen">
-      <div
-        className="
+      <FadeAnimation>
+        <div
+          className="
       w-full flex flex-wrap md:p-3 flex-row items-center justify-center"
-      >
-        {productList.length &&
-          productList.map((product) => (
-            <ProductItem key={product.id} product={product} />
-          ))}
-      </div>
+        >
+          {productList.length &&
+            productList.map((product) => (
+              <ProductItem key={product.id} product={product} />
+            ))}
+        </div>
+      </FadeAnimation>
+
       {productLength < 8 && (
         <a href="/products">
           <div className="bg-Apple flex justify-center px-3 py-2 mb-4 ml-2 rounded-md w-[200px]">

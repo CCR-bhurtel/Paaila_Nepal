@@ -3,7 +3,7 @@ import SmallText from "../common/SmallText";
 
 function ContactForm({ titleid }) {
   return (
-    <div className="flex items-center justify-center w-full lg:w-[40vw] bg-Apple px-3 md:px-6 mt-3 py-4 flex-col">
+    <div id={titleid===1 ? "contact" : "quote"} className="flex items-center justify-center w-full lg:w-[40vw] bg-Apple px-3 md:px-6 mt-3 py-4 flex-col">
       <div className="formtitle flex flex-row items-center justify-center">
         <div className="outercircle rounded-full bg-Nickel w-[20px] h-[20px] border border-white border-1 flex items-center justify-center ">
           <div className="innercircle rounded-full bg-white w-[10px] h-[10px]"></div>
