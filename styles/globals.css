@@ -29,7 +29,7 @@
 .hero_about {
   background-image: url(../Assets/Misc/hero_about.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .hero_products {
