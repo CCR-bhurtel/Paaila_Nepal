@@ -13,12 +13,20 @@
   --Teal: #86c2ad;
   --Smoky: #090909;
   --Nickel: #737373;
+  --Casal: #256554;
+  --Doctory: #0C8D60;
 }
 
 .container {
   max-width: 1200px;
 }
 
+.announcement-bg {
+  background-image: url(../Assets/Misc/announcement.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .extending-bg {
   background-image: url(../Assets/Misc/extending_large.png);
   background-position: center;

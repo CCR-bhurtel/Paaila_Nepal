@@ -5,10 +5,14 @@ import Surgery from "../../Assets/Misc/surgery.jpg";
 import FadeAnimation from "../common/Fade";
 function About() {
   return (
-    <div className="min-w-screen   usm:items-center usm:justify-center flex flex-row bg-Leaf">
-      <FadeAnimation>
-        <div className="text-part lg:py-6 py-12 px-6 flex  md:text-left items-left justify-center flex-col ">
-          <div className="largetext md:text-left text-3xl md:text-5xl text-white">
+    <div className="min-w-screen  usm:items-center usm:justify-center flex flex-col md:flex-row bg-White bg-Casal">
+      <div className="image-part w-100 md:block  md:w-[70vw] lg:w-[50vw] object-fit bg-White">
+        <img className="md:w-100 md:max-h-[600px] object-fit" src={Surgery.src} alt="" />
+      </div>
+
+      <div className="text-part lg:py-6 py-12 px-6 flex md:text-left items-left justify-center flex-col md:items-center">
+        <FadeAnimation>
+          <div className="largetext md:text-center text-3xl md:text-5xl text-white">
             All <span className="text-Toxic">Surgical Equipments</span> at one
             place
           </div>
@@ -22,11 +26,7 @@ function About() {
               Know us more
             </button>
           </a>
-        </div>
-      </FadeAnimation>
-
-      <div className="image-part hidden md:block md:min-h-100 md:w-[70vw] lg:w-[50vw] object-fit bg-White">
-        <img className="md:w-100 md:min-h-[500px]" src={Surgery.src} alt="" />
+        </FadeAnimation>
       </div>
     </div>
   );

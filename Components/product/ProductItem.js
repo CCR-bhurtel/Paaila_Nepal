@@ -7,7 +7,7 @@ function ProductItem({ product: { id, name, image } }) {
   return (
     image && (
       <div className="productItem mt-3 md:mr-2 lg:mt-4 relative group cursor-pointer w-[300px] h-[300px]  relative">
-        <div className="cover absolute bg-Leaf opacity-[.8] inset-0 flex  items-center p-2 hidden group-hover:flex z-10">
+        <div className="cover absolute bg-Casal opacity-[.8] inset-0 flex  items-center p-2 hidden group-hover:flex z-10">
           <div>
             <h2 className="text-white font-medium font-Inter text-xl">
               {name}

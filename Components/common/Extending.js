@@ -12,7 +12,7 @@ function Extending() {
             We are Extending
           </h2>
           <div className="smallText  md:leading-9 mt-4 md:text-2xl text-md lg:text-2xl lg:max-w-[550px]  md:leading-7 max-w-[400px] ">
-            <p className="text-teal md:tracking-wider font-thin ">
+            <p className="text-teal md:tracking-wider font-thin text-Pine ">
               After a 5 years long service in butwal, we’ve finally decided to
               extend our service all over nepal.
             </p>

@@ -23,6 +23,9 @@ module.exports = {
         black: "#000",
         white: "#ffffff",
         Nickel: "#737373",
+        Casal: "#256554",
+        Pine: "#346D3D",
+        Doctory: "#0C8D60",
       },
       screens: {
         sm: "640px",
