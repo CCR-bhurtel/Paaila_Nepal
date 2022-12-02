@@ -16,9 +16,7 @@
   --Casal: #256554;
   --Doctory: #0c8d60;
 }
-html {
-  display: none;
-}
+
 .container {
   max-width: 1200px;
 }
