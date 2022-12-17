@@ -6,7 +6,7 @@ import LowerFoot from "../Components/Layout/LowerFoot";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="relative font-Inter overflow-hidden">
+    <div className="relative font-Inter overflow-hidden opacity-0">
       <Navbar />
       <Component {...pageProps} />
       <Footer />
